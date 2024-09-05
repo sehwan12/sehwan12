@@ -1,4 +1,4 @@
-# 👋 Hello, I'm [Your Name]!
+# 👋 Hello, I'm [Sehwan Park]!
 
 Welcome to my GitHub profile! I'm a **Computer Science student** at **Seoul National University of Science and Technology**. Passionate about coding, learning, and building projects that solve real-world problems. 💻
 
@@ -32,8 +32,8 @@ Welcome to my GitHub profile! I'm a **Computer Science student** at **Seoul Nati
 
 ## 📈 My GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sehwan12&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sehwan12&layout=compact&theme=radical)
 
 ---
 
