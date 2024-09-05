@@ -1,16 +1,44 @@
-## Hi there 👋
+# 👋 Hello, I'm [Your Name]!
 
-<!--
-**sehwan12/sehwan12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I'm a **Computer Science student** at **Seoul National University of Science and Technology**. Passionate about coding, learning, and building projects that solve real-world problems. 💻
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌟 About Me
+
+- 🎓 **Major:** Computer Science
+- 🏫 **University:** Seoul National University of Science and Technology
+- 💡 **Interests:** Web Development, Algorithm
+- 🌍 **Location:** South Korea
+
+---
+
+## 🔧 Skills
+
+- **Languages:** Python, Java
+- **Frameworks:** Node.js, Express
+- **Tools & Platforms:** Git
+- **Databases:** MySQL
+
+---
+
+## 🌱 I'm Currently Learning
+
+- **Spring Framework**
+- **Algorithm** 
+- **And more about Web Development** 
+
+---
+
+## 📈 My GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+
+---
+
+## 📫 How to Reach Me
+
+- **Email:** [park010804@gmail.com](mailto:park010804@gmail.com)
+- **LinkedIn:** 
+- **Portfolio:** 
