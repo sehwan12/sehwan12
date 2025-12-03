@@ -15,30 +15,23 @@ Welcome to my GitHub profile! I'm a **Computer Science student** at **Seoul Nati
 
 ## 🔧 Skills
 
-- **Languages:** Python, Java
-- **Frameworks:** Node.js, Express
-- **Tools & Platforms:** Git
-- **Databases:** MySQL
+- **Languages:** Java, Python
+- **Frameworks:** Spring, FastAPI, Flutter
+- **Tools & Platforms:** Git, Github
+- **Databases:** MySQL, PostgreSQL
+- **DevOps:** Github actions, Xcode Cloud, Docker
 
 ---
 
 ## 🌱 I'm Currently Learning
 
-- **Spring Framework**
+- **AWS Infra Architecture**
 - **Algorithm** 
 - **And more about Web Development** 
-
----
-
-## 📈 My GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sehwan12&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sehwan12&layout=compact&theme=radical)
 
 ---
 
 ## 📫 How to Reach Me
 
 - **Email:** [park010804@gmail.com](mailto:park010804@gmail.com)
-- **LinkedIn:** 
 - **Portfolio:** 
