@@ -38,7 +38,7 @@
 > **AI기반 한글 손글씨 학습 어플리케이션.** (Hangeul Handwriting Learning Application using AI)
 
 * **기간:** 2025.03 ~ 2025.11 (9개월)
-* **인원:** 4명 (앱개발팀 2명,aI팀 2명)
+* **인원:** 4명 (앱개발팀 2명, AI팀 2명)
 * **역할:** 기획, 앱개발 전반
 * **기술 스택:**
     <img src="https://img.shields.io/badge/flutter-007396?style=flat-square&logo=flutter&logoColor=white"> <img src="https://img.shields.io/badge/fastapi%20-6DB33F?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/postgresql-4479A1?style=flat-square&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/docker-007396?style=flat-square&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/github%20actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/Xcode%20Cloud-1575F9?style=flat-square&logo=xcode&logoColor=white"> <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"> <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white">
@@ -51,8 +51,9 @@
     * OAuth 기반 구글/카카오/애플 로그인 지원
 * **기능 개선**
     * 프로필사진 로딩 속도 개선 (NGINX 서빙, 사진등록 전 해상도 사전처리, 캐싱)
-    * 홈탭(단계별학습 탭), 사용자언어 적용 관련 데이터 로드 속도 개선 (Provier 패턴을 적용해 API 호출 최소화)
-    * https 적용 및 보안 라이브러리 적용으로 보안 개선
+    * 홈 탭 및 다국어 처리 데이터 로딩 속도 개선
+      * Provider를 활용한 상태 관리 도입: 데이터를 메모리에 캐싱하여 탭 전환 시 발생하는 불필요한 중복 API 호출 제거          및 렌더링 성능 최적화.
+    * Nginx 리버스 프록시 및 SSL 인증서 적용(HTTPS)으로 보안 개선
 * **링크:** [손글손글 Organization Repository](https://github.com/AI-WritingCorrection) 
 
 <br>
@@ -76,9 +77,8 @@
 ### 이외 프로젝트 설명
 * [다기능 테트리스(2024.03~2024.06)](https://github.com/sehwan12/Tetris_swingFinal) (소프트웨어 공학 4팀) <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"> 
 >다양한 아이템, 2인 모드, 스코어보드등을 지원하는 자바 Swing기반 테트리스게임입니다.
-
 * [한국어 수화 인식 프로그램](https://github.com/sehwan12/signLang) <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white">
->KNN알고리즘을 이용하여 한국어 수화데이터를 학습시키고, 학습시킨 데이터를 기반으로 수어를 인식해 텍스트로 출력하는 프로그램입니다.
+>MediaPipe를 이용해 손의 랜드마크(Landmark) 좌표를 추출하고, 이를 KNN 알고리즘으로 분류하여 수어 인식 구현
 * [Spring기반 커뮤니티](https://github.com/sehwan12/MyCommunity) <img src="https://img.shields.io/badge/spring-6DB33F?style=flat-square&logo=spring&logoColor=white">
 >게시글, 댓글, 좋아요, 첨부파일 기능을 가진 커뮤니티 사이트입니다.
 * [AIWiz](https://github.com/sehwan12/aiWiz) <img src="https://img.shields.io/badge/Android Studio-02569B?style=flat-square&logo=androidstudio&logoColor=white">
