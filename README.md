@@ -74,13 +74,15 @@
 * **링크:** [Back-End](https://github.com/Darakbang-Tools-Hackathon/Hackathon-Team4-BE) [Front-End](https://github.com/Darakbang-Tools-Hackathon/Hackathon-Team4-FE)
 
 ### 이외 프로젝트 설명
-* 다기능 테트리스(2024.03~2024.06) (소프트웨어 공학 4팀) <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white">
+* [다기능 테트리스(2024.03~2024.06)](https://github.com/sehwan12/Tetris_swingFinal) (소프트웨어 공학 4팀) <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"> 
 >다양한 아이템, 2인 모드, 스코어보드등을 지원하는 자바 Swing기반 테트리스게임입니다.
 
-* 한국어 수화 인식 프로그램
-* Spring기반 커뮤니티
-* AIWiz
-
+* [한국어 수화 인식 프로그램](https://github.com/sehwan12/signLang) <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white">
+>KNN알고리즘을 이용하여 한국어 수화데이터를 학습시키고, 학습시킨 데이터를 기반으로 수어를 인식해 텍스트로 출력하는 프로그램입니다.
+* [Spring기반 커뮤니티](https://github.com/sehwan12/MyCommunity) <img src="https://img.shields.io/badge/spring-6DB33F?style=flat-square&logo=spring&logoColor=white">
+>게시글, 댓글, 좋아요, 첨부파일 기능을 가진 커뮤니티 사이트입니다.
+* [AIWiz](https://github.com/sehwan12/aiWiz) <img src="https://img.shields.io/badge/Android Studio-02569B?style=flat-square&logo=androidstudio&logoColor=white">
+>프롬프트 없이 사진 선택만으로 AI 합성을 경험할 수 있는 안드로이드 어플리케이션
 ---
 
 ## 📫 How to Reach Me
