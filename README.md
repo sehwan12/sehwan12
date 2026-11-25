@@ -1,90 +1,84 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=SEHWAN'S%20GITHUB&fontSize=60&fontColor=ffffff&fontAlignY=35" width="100%" alt="header" />
+
+# SEHWAN PARK
+### Product-minded developer · Seoul, South Korea
+
+**I plan and build web and mobile products, with a focus on useful experiences and thoughtful engineering.**
+
+[Projects](#selected-projects) · [Skills](#toolbox) · [Contact](#contact)
+
 </div>
 
-## 🌟 About Me
-
-- 🎓 **Major:** Computer Science
-- 🏫 **University:** Seoul National University of Science and Technology (서울과학기술대학교)
-- 💡 **Interests:** Service Planning, Web/App Development, Algorithm
-- 🌍 **Location:** Seoul, South Korea
-- 🇯🇵 **Global:** Actively seeking job opportunities in Japan (JLPT N1)
-
 ---
 
-## 🔧 Skills
+## About
 
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<br>
-<img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
-<br>
-<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-<br>
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
-<br>
-<img src="https://img.shields.io/badge/github%20actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/Xcode%20Cloud-1575F9?style=for-the-badge&logo=&logoColor=white"> <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+I study Computer Science at Seoul National University of Science and Technology. My interests include service planning, web and app development, and algorithms. I hold JLPT N1 and am seeking opportunities in Japan.
 
----
+## Selected projects
 
-## 🌱 I'm Currently Learning
+### 손글손글 · AI handwriting learning
 
-<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"> <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/Algorithm-black?style=for-the-badge&logo=leetcode&logoColor=white">
+> A handwriting practice app that evaluates legibility, letter proportions, stroke order, and phoneme shape, then returns tailored feedback.
 
----
+**My role:** Product planning and app development  
+**Built with:** Flutter · FastAPI · EasyOCR · PostgreSQL · Docker · AWS
 
-## 🚀 Projects
+| Explore | |
+| --- | --- |
+| [Watch demo 1](https://youtu.be/hiKP2azsul4) · [Demo 2](https://youtu.be/4Eiu8ARfBwU) | [Android APK](https://drive.google.com/uc?export=download&id=13mRweaetV0183VmhngQ40QmPLdWyfani) |
+| [App repository](https://github.com/AI-WritingCorrection/app) | [Server repository](https://github.com/AI-WritingCorrection/server) |
+| [My app fork](https://github.com/sehwan12/songeul-app) | [My server fork](https://github.com/sehwan12/songeul-server) |
 
-### 1. 손글손글
-> **AI기반 한글 손글씨 학습 어플리케이션.** (Hangeul Handwriting Learning Application using AI)
+<details>
+<summary>How the product works</summary>
 
-* **기간:** 2025.03 ~ 2025.11 (9개월)
-* **인원:** 4명 (앱개발팀 2명, AI팀 2명)
-* **역할:** 기획, 앱개발 전반
-* **기술 스택:**
-    <img src="https://img.shields.io/badge/flutter-007396?style=flat-square&logo=flutter&logoColor=white"> <img src="https://img.shields.io/badge/fastapi%20-6DB33F?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/postgresql-4479A1?style=flat-square&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/docker-007396?style=flat-square&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/github%20actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/Xcode%20Cloud-1575F9?style=flat-square&logo=xcode&logoColor=white"> <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"> <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white">
-* **주요 기능**
-    * 총 4단계에 걸친 EasyOCR기반 글씨 인식 및 평가 로직
-    * 사용자 유형에 맞는 맞춤 피드백 제공
-    * 글씨 단계별 학습(게이미피케이션) 
-    * LLM이 각 단계에 맞게 추천하는 무제한 반복 학습 모드
-    * 자세, 획순 등 기초부터 학습하는 '자유 연습' 모드
-    * OAuth 기반 구글/카카오/애플 로그인 지원
-* **기능 개선**
-    * 프로필사진 로딩 속도 개선 (NGINX 서빙, 사진등록 전 해상도 사전처리, 캐싱)
-    * 홈 탭 및 다국어 처리 데이터 로딩 속도 개선
-      * Provider를 활용한 상태 관리 도입: 데이터를 메모리에 캐싱하여 탭 전환 시 발생하는 불필요한 중복 API 호출 제거          및 렌더링 성능 최적화.
-    * Nginx 리버스 프록시 및 SSL 인증서 적용(HTTPS)으로 보안 개선
-* **링크:** [손글손글 Organization Repository](https://github.com/AI-WritingCorrection) 
+The Flutter app sends handwriting images and stroke coordinates to a FastAPI service. The server checks OCR readability, overall proportions, stroke order and direction, and phoneme-level proportions, then returns scores and feedback. The app also supports staged practice, free practice, and learning history.
 
-<br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0ffa0c25-86fb-4e9a-9e06-64f2d18b928a" width="720" alt="손글손글 app and server architecture" />
+</p>
 
-### 2. MyMoji
-> **하루의 일상을 기록하며, 개인의 특성을 이모티콘으로 나타내 자기이해를 돕는 웹사이트** <br> (Recording my daily life, expresses individual characteristics with emoticon)
-* **기간:**
-  * 1차 MVP 개발: 2025.11.07~2025.11.08(16시간)
-  * 2차: 2025.12~
-* **인원:** 2명 (프론트엔드 1명, 백엔드 1명)
-* **역할:** 기획, 백엔드
-* **기술 스택:**
-    <img src="https://img.shields.io/badge/spring-6DB33F?style=flat-square&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/postgresql-4479A1?style=flat-square&logo=postgresql&logoColor=white"> (<img src="https://img.shields.io/badge/html-007396?style=flat-square&logo=html&logoColor=white"> <img src="https://img.shields.io/badge/css-6DB33F?style=flat-square&logo=css&logoColor=white"> <img src="https://img.shields.io/badge/javascript-23FF9900?style=flat-square&logo=javascript&logoColor=white">)
-* **주요 기능**
-    * Big 5 이론을 기반으로 한 개인의 특성을 수치화해서 기록
-    * 다양한 특성들을 가중치를 적용해서 물어보는 재밌는 질문들을 제공
-    * 개인의 특성을 이모티콘으로 변환 
-    * 이모티콘에 맞는 개인의 감정피드백 제공
-* **링크:** [Back-End](https://github.com/Darakbang-Tools-Hackathon/Hackathon-Team4-BE) [Front-End](https://github.com/Darakbang-Tools-Hackathon/Hackathon-Team4-FE)
+</details>
 
-### 이외 프로젝트 설명
-* [다기능 테트리스(2024.03~2024.06)](https://github.com/sehwan12/Tetris_swingFinal) (소프트웨어 공학 4팀) <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"> 
->다양한 아이템, 2인 모드, 스코어보드등을 지원하는 자바 Swing기반 테트리스게임입니다.
-* [한국어 수화 인식 프로그램](https://github.com/sehwan12/signLang) <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white">
->MediaPipe를 이용해 손의 랜드마크(Landmark) 좌표를 추출하고, 이를 KNN 알고리즘으로 분류하여 수어 인식 구현
-* [Spring기반 커뮤니티](https://github.com/sehwan12/MyCommunity) <img src="https://img.shields.io/badge/spring-6DB33F?style=flat-square&logo=spring&logoColor=white">
->게시글, 댓글, 좋아요, 첨부파일 기능을 가진 커뮤니티 사이트입니다.
-* [AIWiz](https://github.com/sehwan12/aiWiz) <img src="https://img.shields.io/badge/Android Studio-02569B?style=flat-square&logo=androidstudio&logoColor=white">
->프롬프트 없이 사진 선택만으로 AI 합성을 경험할 수 있는 안드로이드 어플리케이션
----
+### MyMoji · Emotion journal
 
-## 📫 How to Reach Me
+> A web app for recording daily emotions and traits, then reflecting them back through a personal emoji and feedback.
 
-- **Email:** [park010804@gmail.com](mailto:park010804@gmail.com)
+**My role:** Product planning and backend development  
+**Built with:** Spring Boot · PostgreSQL · Firebase Authentication
+
+[Backend](https://github.com/Darakbang-Tools-Hackathon/Hackathon-Team4-BE) · [Frontend](https://github.com/Darakbang-Tools-Hackathon/Hackathon-Team4-FE) · [My repository](https://github.com/sehwan12/MyMoji)
+
+<details>
+<summary>More projects</summary>
+
+- [AIWiz](https://github.com/sehwan12/aiWiz) — Android app for AI image compositing from a selected photo.
+- [Korean sign language recognition](https://github.com/sehwan12/signLang) — MediaPipe hand landmarks classified with KNN.
+- [Spring community](https://github.com/sehwan12/MyCommunity) — Community site with posts, comments, likes, and attachments.
+- [Multiplayer Tetris](https://github.com/sehwan12/Tetris_swingFinal) — Java Swing game with items, two-player mode, and scoreboard.
+
+</details>
+
+## Toolbox
+
+<details>
+<summary>Languages, frameworks, and tools</summary>
+
+**Languages:** Java · Python  
+**Backend and app:** Spring · FastAPI · Flutter  
+**Data:** PostgreSQL · MySQL  
+**Delivery:** Docker · GitHub Actions · Xcode Cloud · Git
+
+</details>
+
+## Contact
+
+[Email](mailto:park010804@gmail.com) · Seoul, South Korea
+
+<div align="center">
+
+*Thanks for stopping by.*
+
+</div>
+
