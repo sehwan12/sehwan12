@@ -74,11 +74,10 @@ The Flutter app sends handwriting images and stroke coordinates to a FastAPI ser
 
 ## Contact
 
-[Email](mailto:park010804@gmail.com) · Seoul, South Korea
+[Email : park010804@gmail.com](mailto:park010804@gmail.com) · Seoul, South Korea
 
 <div align="center">
 
-*Thanks for stopping by.*
 
 </div>
 
