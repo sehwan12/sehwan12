@@ -1,25 +1,21 @@
 <div align="center">
 
 # SEHWAN PARK
-### Product-minded developer · Seoul, South Korea
-
-**I plan and build web and mobile products, with a focus on useful experiences and thoughtful engineering.**
 
 [Projects](#selected-projects) · [Skills](#toolbox) · [Contact](#contact)
 
 </div>
 
----
 
 ## About
 
-I study Computer Science at Seoul National University of Science and Technology. My interests include service planning, web and app development, and algorithms. I hold JLPT N1 and am seeking opportunities in Japan.
+I study Computer Science at Seoul National University of Science and Technology.<br> My interests include service planning, web and app development, and algorithms. <br>I hold JLPT N1 and am also seeking opportunities in Japan.
 
 ## Selected projects
 
 ### 손글손글 · AI handwriting learning
 
-> A handwriting practice app that evaluates legibility, letter proportions, stroke order, and phoneme shape, then returns tailored feedback.
+> A handwriting practice app that evaluates legibility, letter proportions, stroke order, and phoneme shape, <br>then returns tailored feedback.
 
 **My role:** Product planning and app development  
 **Built with:** Flutter · FastAPI · EasyOCR · PostgreSQL · Docker · AWS
