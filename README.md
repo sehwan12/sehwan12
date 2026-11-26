@@ -10,9 +10,10 @@ I study Computer Science at Seoul National University of Science and Technology.
 
 ### 손글손글 · AI handwriting learning
 
-> A handwriting practice app that evaluates legibility, letter proportions, stroke order, and phoneme shape, <br>then returns tailored feedback.
+> A handwriting practice app that evaluates legibility, overall character proportions, stroke order and direction, and phoneme-level proportions, <br>then returns tailored feedback.
 
-**My role:** Product planning and app development  
+**My role:** Product planning, Flutter app development (handwriting canvas and API integration), and backend development (learning statistics API)
+
 **Built with:** Flutter · FastAPI · EasyOCR · PostgreSQL · Docker · AWS
 
 | Explore | |
@@ -24,7 +25,7 @@ I study Computer Science at Seoul National University of Science and Technology.
 <details>
 <summary>How the product works</summary>
 
-The Flutter app sends handwriting images and stroke coordinates to a FastAPI service. The server checks OCR readability, overall proportions, stroke order and direction, and phoneme-level proportions, then returns scores and feedback. The app also supports staged practice, free practice, and learning history.
+The Flutter app sends handwriting images and stroke coordinates to a FastAPI service. The server checks legibility via OCR, overall character proportions, stroke order and direction, and phoneme-level proportions, then returns scores and feedback. The app also supports staged practice, free practice, and learning history.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0ffa0c25-86fb-4e9a-9e06-64f2d18b928a" width="720" alt="손글손글 app and server architecture" />
