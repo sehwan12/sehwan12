@@ -1,11 +1,6 @@
 <div align="center">
 
-# SEHWAN PARK
-
 [Projects](#selected-projects) · [Skills](#toolbox) · [Contact](#contact)
-
-</div>
-
 
 ## About
 
